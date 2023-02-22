@@ -33,6 +33,10 @@ public class StudentRestContoller {
         System.out.println("saved");
         return studentRepository.findAll();
     }
+    
+    
+    
+    
 
 }
 
