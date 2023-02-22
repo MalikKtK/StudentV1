@@ -23,7 +23,7 @@ public class InitData implements CommandLineRunner {
             s1.setId(1);
             s1.setName("Viggo");
             s1.setBornDate(LocalDate.now());
-            s1.setBornTime(LocalTime.now());
+            s1.setBornTime(LocalTime.now());  //hej
             studentRepository.save(s1);
             System.out.println("saved");
             List<Student> lst = studentRepository.findAll();
